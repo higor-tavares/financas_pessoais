@@ -2,7 +2,7 @@
 <?php include "includes/dash.php"?>
   <div class="container">
     <h1 class="text-center" >Lançamentos financeiros</h1>
-      <a href="includes/create.php" class='btn btn-outline-dark mb-2'> <i class="bi bi-person-plus"></i> Novo lançamento</a>
+      <a href="includes/create.php" class='btn btn-outline-dark mb-2'> <i class="bi bi-plus"></i> Novo lançamento</a>
  
         <table class="table table-striped table-bordered table-hover">
           <thead class="table-dark">
@@ -35,12 +35,8 @@
               echo " <td > {$descricao}</td>";
               echo " <td > R$ {$valor}</td>";
               echo " <td >{$tipo} </td>";
-              echo " <td >{$data} </td>";
-              echo " <td class='text-center'> <a href='view.php?id={$id}' class='btn btn-primary'> <i class='bi bi-eye'></i> View</a> </td>";
- 
-              echo " <td class='text-center' > <a href='update.php?edit&id={$id}' class='btn btn-secondary'><i class='bi bi-pencil'></i> EDIT</a> </td>";
- 
-              echo " <td  class='text-center'>  <a href='delete.php?delete={$id}' class='btn btn-danger'> <i class='bi bi-trash'></i> DELETE</a> </td>";
+              echo " <td >{$data} </td>"; 
+              echo " <td  class='text-center'>  <a href='includes/delete.php?delete={$id}' class='btn btn-danger'> <i class='bi bi-trash'></i> DELETE</a> </td>";
               echo " </tr> ";
                   }  
                 ?>
