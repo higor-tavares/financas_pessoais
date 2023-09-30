@@ -33,7 +33,7 @@
               echo "<tr >";
               echo " <th scope='row' >{$id}</th>";
               echo " <td > {$descricao}</td>";
-              echo " <td > {$valor}</td>";
+              echo " <td > R$ {$valor}</td>";
               echo " <td >{$tipo} </td>";
               echo " <td >{$data} </td>";
               echo " <td class='text-center'> <a href='view.php?id={$id}' class='btn btn-primary'> <i class='bi bi-eye'></i> View</a> </td>";
