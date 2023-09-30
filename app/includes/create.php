@@ -15,8 +15,10 @@
               echo "something went wrong ". mysqli_error($conn);
           }
  
-          else { echo "<script type='text/javascript'>alert('lançamento salvo com sucesso!')</script>";
-              }         
+          else { 
+            echo "<script type='text/javascript'>window.top.location='http://localhost:8081/index.php';</script>"; exit;
+            die();
+        }         
     }
 ?>
  
@@ -35,7 +37,10 @@
      
       <div class="form-group">
         <label for="tipo" class="form-label">Tipo</label>
-        <input type="text" name="tipo"  class="form-control">
+        <select name="tipo"  class="form-control">
+            <option value="DESPESA">DESPESA</option>
+            <option value="RECEITA">RECEITA</option>
+        </select>
       </div>    
  
       <div class="form-group">

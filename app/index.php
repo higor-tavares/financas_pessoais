@@ -1,7 +1,7 @@
 <?php include "header.php"?>
 <?php include "includes/dash.php"?>
   <div class="container">
-    <h1 class="text-center" >Lançamentos financeiros</h1>
+    <h2 class="text-center" >Lançamentos financeiros</h2>
       <a href="includes/create.php" class='btn btn-outline-dark mb-2'> <i class="bi bi-plus"></i> Novo lançamento</a>
  
         <table class="table table-striped table-bordered table-hover">

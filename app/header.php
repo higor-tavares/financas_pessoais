@@ -14,3 +14,9 @@
     <title>Finanças pessoais</title>
 </head>
 <body>
+<nav class="navbar navbar-dark bg-primary">
+<a class="navbar-brand" href="#">
+    <span><i class='bi bi-dollar'></i></span>
+    <h1 style="margin:0px 16px;">Finanças Pessoais</h1>
+  </a>
+</nav>
